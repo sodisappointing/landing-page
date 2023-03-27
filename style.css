@@ -64,6 +64,10 @@ li {
     
 }
 
+.hero-button {
+    align-self: center;
+}
+
 .hero-img {
     max-width: 600px;
 }
@@ -73,6 +77,8 @@ button {
     font-weight: bold;
     border-radius: 8px;
     outline: none;
+    max-width: 100px;
+    padding: 8px;
 }
 
 .blue-bg {
@@ -106,6 +112,7 @@ button {
 .quoted {
     font-weight: bold;
     font-size: 24px;
+    align-self: flex-end;
 }
 
 .action-call {
